@@ -1,0 +1,88 @@
+@font-face
+{
+    font-family: khmerOs;
+    src: url("fonts/KhmerOS.ttf");
+}
+@font-face{
+    font-family: tacteng;
+    src: url("fonts/TACTENG.TTF");
+}
+
+body, p, h1, h2, h3, h4, h5, h6,
+ul, li, span, div{
+    font-family:khmerOs;
+}
+.bg-primary{
+    color: #000;
+    background-color: #c7cdd4;
+}
+.holder{
+    margin-top:7px;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    padding-left: 4px;
+}
+#sms{
+    margin-top: 9px;
+}
+.sms{
+    padding: 4px;
+    margin-top: 3px;
+    background: #5898cb;
+    color:#f5f3ea;
+}
+.sidebar-menu .treeview-menu>li>a{
+    font-size: 12px;
+}
+.txtw{
+    width: 200px!important;
+    margin: 0;
+    font-size:13px;
+}
+.input-group .input-group-addon {
+    background-color: #e0e4e8;
+    font-weight: bold;
+}
+.bl{
+    margin-left: 0;
+    margin-right:0;
+    padding: 0;
+}
+.bl1{
+    margin-left: 18px;
+    margin-right:0;
+    padding: 0;
+}
+.bl2{
+    margin-left: 8px;
+    margin-right:0;
+    padding: 0;
+}
+.tt{
+    font-family: tacteng!important;
+}
+.selected{
+    background-color: #ababab;
+}
+#data tr td{
+    cursor: pointer;
+}
+.company-name{
+    position: absolute;
+    top:30px;
+    right: 18px;
+    font-size: 27px;
+    color: #1b6d85;
+    -webkit-transition: none;
+    -moz-transition:  none;
+    -ms-transition:  none;
+    -o-transition:  none;
+    transition:  none;
+}
+.small-box{
+    padding-top: 18px;
+    padding-bottom: 18px;
+}
+.gray{
+    background: #7dacb4;
+}

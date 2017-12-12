@@ -1,0 +1,7 @@
+@font-face {
+    font-family: khmermoul;
+    src: url("fonts/KhmerOSmuol.ttf");
+}
+.khmoul{
+    font-family:khmermoul;
+}
